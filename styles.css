@@ -49,14 +49,12 @@ header nav a:hover {
   opacity: 0.6;
 }
 
-/* PROJECTS GRID */
 .projects-grid {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
   gap: 2rem;
 }
 
-/* PROJECT CARD */
 .project-card a {
   text-decoration: none;
   color: inherit;
@@ -87,7 +85,6 @@ header nav a:hover {
   padding-top: 0.25rem;
 }
 
-/* FOOTER */
 footer {
   margin-top: 4rem;
   font-size: 0.9rem;
