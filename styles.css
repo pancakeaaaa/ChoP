@@ -1,1 +1,96 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 16px;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  background-color: #ffffff;
+  color: #000000;
+  line-height: 1.5;
+  padding: 2rem;
+}
+
+/* HEADER */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 3rem;
+}
+
+header h1 a {
+  text-decoration: none;
+  color: black;
+  font-weight: 500;
+  font-size: 1.2rem;
+}
+
+header nav ul {
+  list-style: none;
+  display: flex;
+  gap: 1.5rem;
+}
+
+header nav a {
+  text-decoration: none;
+  color: black;
+  font-weight: 400;
+  transition: opacity 0.2s ease;
+}
+
+header nav a:hover {
+  opacity: 0.6;
+}
+
+/* PROJECTS GRID */
+.projects-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 2rem;
+}
+
+/* PROJECT CARD */
+.project-card a {
+  text-decoration: none;
+  color: inherit;
+  display: block;
+}
+
+.project-card figure {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.project-card img {
+  width: 100%;
+  height: auto;
+  display: block;
+  border: 1px solid #ddd;
+  transition: transform 0.3s ease;
+}
+
+.project-card img:hover {
+  transform: scale(1.02);
+}
+
+.project-card figcaption {
+  font-size: 1rem;
+  font-weight: 400;
+  padding-top: 0.25rem;
+}
+
+/* FOOTER */
+footer {
+  margin-top: 4rem;
+  font-size: 0.9rem;
+  color: #666;
+}
 
