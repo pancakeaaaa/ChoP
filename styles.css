@@ -45,6 +45,10 @@ body {
   color: #000000;
   line-height: 1.5;
   padding: 2rem;
+  background-image: url('./images/backgroundCHoP.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }
 
 header {
