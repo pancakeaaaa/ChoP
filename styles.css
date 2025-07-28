@@ -56,6 +56,7 @@ html {
     white-space: nowrap;
     left: 0;
     bottom: 0px;
+    padding-left: 7px;
 }
 
 .site-name :hover{
@@ -103,6 +104,20 @@ nav ul li a:hover{
   height: 100vh;      
 }
 
+.email-link {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  color: white;
+  font-family: 'Kotta One';
+  font-size: 2em;
+  padding-right: 10px;
+}
+
+.email-link :hover{
+  color: white;
+  background-color: #f34814;
+}
 
 header {
   display: flex;
