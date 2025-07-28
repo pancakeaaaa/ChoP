@@ -20,6 +20,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+
 }
 
 html {
@@ -27,9 +28,20 @@ html {
   scroll-behavior: smooth;
 }
 
+.site-name {
+    font-family: 'Kotta One';
+    font-size: 20vw;
+    color: #fcfbf5;
+    background-color: transparent;
+}
+
+.site-name :hover{
+    color: #f34814;
+}
+
 body {
   font-family: -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  background-color: #ffffff;
+  background-color: #c1a864;
   color: #000000;
   line-height: 1.5;
   padding: 2rem;
