@@ -1,9 +1,46 @@
+<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  </head>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Split Screen Layout</title>
+</head>
 <body>
-  <header>Child of Paradise</header>
-  </body>
+
+  <div class="split-container">
+
+    <!-- Left Side -->
+    <section class="split-left">
+      <header>
+        <h1>Left Side</h1>
+      </header>
+      <main>
+        <p>This could be an intro, menu, or static content area.</p>
+        <nav>
+          <ul>
+            <li><a href="#section-1">Section 1</a></li>
+            <li><a href="#section-2">Section 2</a></li>
+          </ul>
+        </nav>
+      </main>
+    </section>
+
+    <!-- Right Side -->
+    <section class="split-right">
+      <header>
+        <h2>Main Content Area</h2>
+      </header>
+      <article id="section-1">
+        <h3>Section 1</h3>
+        <p>Dynamic or scrollable content goes here.</p>
+      </article>
+      <article id="section-2">
+        <h3>Section 2</h3>
+        <p>More content, media, or interactive components.</p>
+      </article>
+    </section>
+
+  </div>
+
+</body>
 </html>
