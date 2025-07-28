@@ -51,7 +51,7 @@ html {
     font-family: 'Kotta One';
     position: fixed;
     font-size: 7vw;
-    color: #fcfbf5;
+    color: white;
     background-color: transparent;
     white-space: nowrap;
     left: 0;
@@ -61,7 +61,6 @@ html {
 .site-name :hover{
     color: white;
     background-color: #f34814;
-    text-decoration: underline;
 }
 
 nav ul {
@@ -73,8 +72,8 @@ nav ul {
     white-space: nowrap;
     display: flex;
     flex-direction: row;
-    gap: 0vw;
     padding-left: 0;
+    padding-right: 15vw;
     list-style: none;
     top: -1vw;
 }
@@ -82,7 +81,8 @@ nav ul {
 nav ul li a{
     color: white;
     text-decoration: none;
-    font-size: 3em
+    font-size: 3em;
+    padding: 1px 1vw;
 }
 
 nav ul li a:hover{
@@ -96,7 +96,7 @@ nav ul li a:hover{
   background-color: #d4be83;
   color: #000000;
   line-height: 1.5;
-  background-image: url('./images/highlight-reel-two-baby.gif');
+  background-image: url('./images/highlight-reel-two-baby-white.gif');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center; 
