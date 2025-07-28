@@ -16,6 +16,14 @@
     font-weight: 400;
 }
 
+@media (max-width: 400px) {
+  .site-name, .site-name a {
+    font-size: 10vw;
+    margin-left: 4px;
+    padding-top: 4px;
+  }
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -30,18 +38,44 @@ html {
 
 .site-name, .site-name a {
     font-family: 'Kotta One';
-    text-decoration: underline;
-    font-size: 5vw;
+    position: fixed;
+    font-size: 7vw;
     color: #fcfbf5;
     background-color: transparent;
     white-space: nowrap;
     margin-left: 8px;
-    margin-top: -20px;
+    bottom: 0px;
 }
 
 .site-name :hover{
     color: white;
     background-color: #f34814;
+    text-decoration: underline;
+}
+
+nav ul {
+    position: fixed;
+    align-content: inline;
+    font-family: 'Kotta One';
+    background-color: transparent;
+    align-content: inline;
+    white-space: nowrap;
+    display: flex;
+    flex-direction: row;
+    gap: 0;
+    list-style: none;
+    top: 0;
+}
+
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 3em
+}
+
+nav ul li a:hover{
+    color: white;
+    background: #f34814;
 }
 
 
@@ -111,7 +145,5 @@ header nav ul {
 footer {
   margin-top: 4rem;
   font-size: 0.9rem;
-  color: #c8bbbb;
-  font-family:'Inclusive Sans'
+  color: #666;
 }
-
