@@ -108,6 +108,20 @@ nav ul li a:hover{
     background: #f34814;
 }
 
+img {
+    width: 100%;
+  max-width: 400px; /* or any desired fixed width */
+  height: auto;
+  display: block;
+}
+
+.illustration-page p{
+    font-family: 'Kotta One';
+    font-size: 2em;
+    text-align: right;
+    padding-right: 10vw;
+    word-wrap: break-word;
+}
 
 .index-page {
   font-family: -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Helvetica, Arial, sans-serif;
