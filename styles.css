@@ -16,12 +16,23 @@
     font-weight: 400;
 }
 
-@media (max-width: 400px) {
-  .site-name, .site-name a {
-    font-size: 10vw;
-    margin-left: 4px;
-    padding-top: 4px;
-  }
+@media (max-width: 600px) {
+    nav ul {
+        flex-direction: column; 
+        white-space: normal;     /* allow wrapping */
+        gap: 1em;
+        padding-left: 0.5em;
+        width: auto;             /* shrink to fit content */
+        background-color: rgba(0, 0, 0, 0.7); /* optional bg for readability */
+        top: 0;
+        left: 0;
+        position: fixed;
+    }
+
+    nav ul li a {
+        font-size: 2em;          /* adjust size for mobile */
+        padding: 0.5em 1em;
+    }
 }
 
 * {
@@ -62,7 +73,8 @@ nav ul {
     white-space: nowrap;
     display: flex;
     flex-direction: row;
-    gap: 0;
+    gap: 0vw;
+    padding-left: 0;
     list-style: none;
     top: 0;
 }
