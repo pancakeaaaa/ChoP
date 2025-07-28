@@ -96,10 +96,11 @@ nav ul li a:hover{
   background-color: #d4be83;
   color: #000000;
   line-height: 1.5;
-  background-image: url('./images/highlight-reel-two.gif');
+  background-image: url('./images/highlight-reel-two-baby.gif');
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: center;
+  background-position: center center; 
+  height: 100vh;      
 }
 
 
