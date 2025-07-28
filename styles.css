@@ -1,3 +1,21 @@
+@font-face{
+    font-family: 'Louise';
+    src: url("../ChoP/fonts/Louise-Regular.woff") format(woff);
+    font-weight: 400;
+}
+
+@font-face{
+    font-family: 'Standard-Bold-Italic';
+    src: url("../ChoP/fonts/standard-bold-italic-webfont.woff") format(woff);
+    font-weight: 400;
+}
+
+@font-face{
+    font-family: 'Standard-Bold-Italic';
+    src: url("../ChoP/fonts/standard-bold-webfont.woff") format(woff);
+    font-weight: 400;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -17,7 +35,6 @@ body {
   padding: 2rem;
 }
 
-/* HEADER */
 header {
   display: flex;
   justify-content: space-between;
@@ -36,17 +53,6 @@ header nav ul {
   list-style: none;
   display: flex;
   gap: 1.5rem;
-}
-
-header nav a {
-  text-decoration: none;
-  color: black;
-  font-weight: 400;
-  transition: opacity 0.2s ease;
-}
-
-header nav a:hover {
-  opacity: 0.6;
 }
 
 .projects-grid {
@@ -73,10 +79,6 @@ header nav a:hover {
   display: block;
   border: 1px solid #ddd;
   transition: transform 0.3s ease;
-}
-
-.project-card img:hover {
-  transform: scale(1.02);
 }
 
 .project-card figcaption {
