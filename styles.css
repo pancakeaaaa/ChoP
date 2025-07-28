@@ -28,23 +28,24 @@ html {
   scroll-behavior: smooth;
 }
 
-.site-name {
-    font-family: 'Kotta One';
-    font-size: 20vw;
+.site-name, .site-name a {
+    font-family: 'Inclusive Sans';
+    font-size: 7vw;
     color: #fcfbf5;
     background-color: transparent;
+    white-space: nowrap;
 }
 
 .site-name :hover{
     color: #f34814;
 }
 
+
 body {
   font-family: -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Helvetica, Arial, sans-serif;
   background-color: #c1a864;
   color: #000000;
   line-height: 1.5;
-  padding: 2rem;
   background-image: url('./images/backgroundCHoP.png');
   background-repeat: no-repeat;
   background-size: cover;
