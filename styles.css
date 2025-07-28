@@ -91,12 +91,12 @@ nav ul li a:hover{
 }
 
 
-body {
+.index-page {
   font-family: -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Helvetica, Arial, sans-serif;
   background-color: #d4be83;
   color: #000000;
   line-height: 1.5;
-  background-image: url('./images/backgroundCHoP.png');
+  background-image: url('./images/highlight-reel.gif');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
