@@ -29,15 +29,19 @@ html {
 }
 
 .site-name, .site-name a {
-    font-family: 'Inclusive Sans';
-    font-size: 7vw;
+    font-family: 'Kotta One';
+    text-decoration: underline;
+    font-size: 5vw;
     color: #fcfbf5;
     background-color: transparent;
     white-space: nowrap;
+    margin-left: 8px;
+    margin-top: -20px;
 }
 
 .site-name :hover{
-    color: #f34814;
+    color: white;
+    background-color: #f34814;
 }
 
 
@@ -107,6 +111,7 @@ header nav ul {
 footer {
   margin-top: 4rem;
   font-size: 0.9rem;
-  color: #666;
+  color: #c8bbbb;
+  font-family:'Inclusive Sans'
 }
 
