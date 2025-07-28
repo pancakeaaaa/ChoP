@@ -45,6 +45,9 @@
     padding-right: 5px;
     padding-bottom: 4px;
   }
+  .illustration-page, .packaging-page, .print-page, .photography-page {
+  background-image: url('./images/backgroundCHoP-mobile.png');
+}
 }
 
 
@@ -116,6 +119,18 @@ nav ul li a:hover{
   background-size: cover;
   background-position: center center; 
   height: 100vh;      
+}
+
+.illustration-page, .packaging-page, .print-page, .photography-page {
+  margin: 0;
+  padding: 0;
+  background-color: #ebd499;
+  height: 100vh;
+  background-image: url('./images/backgroundCHoP.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center; 
+  height: 100vh;  
 }
 
 .email-link {
