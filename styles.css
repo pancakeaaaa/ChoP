@@ -96,11 +96,12 @@ nav ul li a:hover{
   background-color: #d4be83;
   color: #000000;
   line-height: 1.5;
-  background-image: url('./images/highlight-reel.gif');
+  background-image: url('./images/highlight-reel-two.gif');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
 }
+
 
 header {
   display: flex;
